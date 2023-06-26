@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.avatar {
+  width: 70px;
+  height: 80px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.name {
+  font-size: 24px;
+  font-weight: 500;
+}
