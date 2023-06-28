@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import randomColor from '../../ulilits/helpers';
+import randomColor from '../../utilits/helpers';
 import css from './Statistics.module.css';
 
 const Statistics = ({ title, stats }) => {
